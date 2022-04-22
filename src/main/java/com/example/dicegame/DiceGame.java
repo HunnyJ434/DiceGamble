@@ -82,49 +82,49 @@ public class DiceGame extends Application {
             }
             else {
                 Random rand = new Random();
-                Image image1 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\1.png");
-                Image image2 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\1.png");
+                Image image1 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/1.png");
+                Image image2 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/1.png");
                 int i = rand.nextInt(6) + 1;
                 int j = rand.nextInt(6) + 1;
                 int num = Integer.valueOf(BetTextField.getText());
                 switch (i) {
                     case 1:
-                        image1 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\1.png");
+                        image1 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/1.png");
                         break;
                     case 2:
-                        image1 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\2.png");
+                        image1 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/2.png");
                         break;
                     case 3:
-                        image1 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\3.png");
+                        image1 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/3.png");
                         break;
                     case 4:
-                        image1 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\4.png");
+                        image1 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/4.png");
                         break;
                     case 5:
-                        image1 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\5.png");
+                        image1 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/5.png");
                         break;
                     case 6:
-                        image1 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\6.png");
+                        image1 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/6.png");
                         break;
                 }
                 switch (j) {
                     case 1:
-                        image2 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\1.png");
+                        image2 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/1.png");
                         break;
                     case 2:
-                        image2 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\2.png");
+                        image2 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/2.png");
                         break;
                     case 3:
-                        image2 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\3.png");
+                        image2 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/3.png");
                         break;
                     case 4:
-                        image2 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\4.png");
+                        image2 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/4.png");
                         break;
                     case 5:
-                        image2 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\5.png");
+                        image2 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/5.png");
                         break;
                     case 6:
-                        image2 = new Image("C:\\Users\\hunny\\IdeaProjects\\DiceGame\\6.png");
+                        image2 = new Image("https://raw.githubusercontent.com/HunnyJ434/DiceGamble/master/images/6.png");
                         break;
                 }
                 ;
